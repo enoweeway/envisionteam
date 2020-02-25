@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'inventory',
     'patients',
     'authentication',
+    'nurses',
+    'userprofile',
 ]
 
 MIDDLEWARE = [

@@ -77,6 +77,29 @@
   <li class="nav-item">
     <a
       class="nav-link"
+      href="#navbar-nurses"
+      data-toggle="collapse"
+      role="button"
+      aria-expanded="false"
+      aria-controls="navbar-inventory"
+    >
+      <i class="fas fa-user-nurse text-info"></i>
+      <span class="nav-link-text">Nurses</span>
+    </a>
+    <div class="collapse" id="navbar-nurses">
+      <ul class="nav nav-sm flex-column">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Add New Nurse</a>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'nurses_list' %}" class="nav-link">View All Nurses</a>
+        </li>
+      </ul>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
       href="#navbar-inventory"
       data-toggle="collapse"
       role="button"
@@ -107,11 +130,37 @@
   <li class="nav-item">
     <a
       class="nav-link"
-      href="https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html"
+      href="#"
       target="_blank"
     >
       <i class="far fa-file-pdf text-success"></i>
       <span class="nav-link-text">Documentation</span>
+    </a>
+  </li>
+</ul>
+<hr class="my-3" />
+<h6 class="navbar-heading p-0 text-muted">Profile</h6>
+<ul class="navbar-nav mb-md-3">
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      href="{% url 'user_profile' %}"
+    >
+      <i class="far fa-id-card text-warning"></i>
+      <span class="nav-link-text">Profile</span>
+    </a>
+  </li>
+</ul>
+<hr class="my-3" />
+<h6 class="navbar-heading p-0 text-muted">Misc.</h6>
+<ul class="navbar-nav mb-md-3">
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      href="{% url 'user_profile' %}"
+    >
+      <i class="far fa-id-card text-warning"></i>
+      <span class="nav-link-text">Calendar</span>
     </a>
   </li>
 </ul>

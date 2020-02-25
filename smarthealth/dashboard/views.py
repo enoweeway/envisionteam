@@ -6,4 +6,4 @@ def patientsDashboard(request):
 
 def analyticsDasboard(request):
 
-    pass
+    return render(request, 'dashboards/views/analytics_dashboard.html', {})

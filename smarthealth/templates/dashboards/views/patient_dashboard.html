@@ -56,9 +56,9 @@
         <div class="container-fluid">
           <div class="header-body">
             <!-- Main Header -->
-            {% include 'containers/layouts/header/main_header.html' %}
+            {% include 'dashboards/data/patient_main_header.html' %}
             <!-- Card stats -->
-            {% include 'containers/layouts/header/cards_header.html' %}
+            {% include 'dashboards/data/patient_cards_header.html' %}
           </div>
         </div>
       </div>
@@ -66,11 +66,9 @@
       <div class="container-fluid mt--6">
         <div class="row">
           <!-- Patient Overview Chart -->
-          {% include 'containers/charts/chart_total_patient.html' %}
-          <!-- Kinds of Diseases Chart -->
-          {% include 'containers/charts/chart_kinds_of_diseases.html' %}
+          {% include 'dashboards/charts/patient_chart_total_patient.html' %}
           <!-- Disease Overview Chart -->
-          {% include 'containers/charts/chart_total_diseases.html' %}
+          {% include 'dashboards/charts/patient_chart_total_diseases.html' %}
         </div>
 
         <!-- Footer -->

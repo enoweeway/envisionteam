@@ -2,7 +2,7 @@ var SalesChart = (function () {
 
     // Variables
 
-    var $chart = $('#chart-sales-dark');
+    var $chart = $('#total_patients');
 
 
     // Methods
@@ -27,7 +27,7 @@ var SalesChart = (function () {
                 labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
                 datasets: [{
                     label: 'Patients',
-                    data: [0, 20, 10, 30, 15, 40, 20, 60, 60]
+                    data: [0, 20, 10, 30, 15, 40, 20, 60]
                 }]
             }
         });

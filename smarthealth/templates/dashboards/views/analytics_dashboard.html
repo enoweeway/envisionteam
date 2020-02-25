@@ -11,7 +11,7 @@
       content="Start your development with a Dashboard for Bootstrap 4."
     />
     <meta name="author" content="Creative Tim" />
-    <title>Smart Health 102</title>
+    <title>Smart Health 102 | Dashboard</title>
 
     {% include 'containers/components/css.html' %}
   </head>
@@ -27,6 +27,7 @@
       >
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            {% include 'containers/layouts/searchbar/searchbar.html' %}
             <!-- Navbar links -->
             <ul class="navbar-nav align-items-center ml-md-auto">
               <li class="nav-item d-xl-none">
@@ -57,10 +58,9 @@
           <div class="header-body">
             <!-- Main Header -->
             {% include 'dashboards/data/analytics_main_header.html' %}
-            
+
             <!-- Card stats -->
             {% include 'dashboards/data/analytics_cards_header.html' %}
-
           </div>
         </div>
       </div>
@@ -68,10 +68,15 @@
       <div class="container-fluid mt--6">
         <div class="row">
           <!-- Dengue Overview Chart -->
-          {% include 'dashboards/charts/analytics_dengue.html' %}
+          {% include 'dashboards/charts/analytics_dengue.html' %} 
+          {% include 'dashboards/charts/analytics_hiv.html' %} 
+          {% include 'dashboards/charts/analytics_meningococcal.html' %}
           <!-- TB Overview Chart -->
           {% include 'dashboards/charts/analytics_tb.html' %}
-
+        </div>
+        <div class="row">
+          <!-- Leptospirosis -->
+          {% include 'dashboards/charts/analytics_lepto.html' %}
         </div>
 
         <!-- Footer -->

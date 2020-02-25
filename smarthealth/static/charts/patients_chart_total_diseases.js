@@ -4,7 +4,7 @@ var BarsChart = (function () {
     // Variables
     //
 
-    var $chart = $('#chart-bars');
+    var $chart = $('#total-diseases');
 
 
     //

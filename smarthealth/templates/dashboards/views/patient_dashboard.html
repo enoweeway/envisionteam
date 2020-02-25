@@ -11,7 +11,7 @@
       content="Start your development with a Dashboard for Bootstrap 4."
     />
     <meta name="author" content="Creative Tim" />
-    <title>Smart Health 102</title>
+    <title>Smart Health 102 | Dashboard</title>
 
     {% include 'containers/components/css.html' %}
   </head>
@@ -27,6 +27,7 @@
       >
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            {% include 'containers/layouts/searchbar/searchbar.html' %}
             <!-- Navbar links -->
             <ul class="navbar-nav align-items-center ml-md-auto">
               <li class="nav-item d-xl-none">

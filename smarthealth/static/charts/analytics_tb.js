@@ -2,7 +2,7 @@ var SalesChart = (function () {
 
     // Variables
 
-    var $chart = $('#chart-sales');
+    var $chart = $('#analytics-tb');
 
 
     // Methods
@@ -11,6 +11,7 @@ var SalesChart = (function () {
         var salesChart = new Chart($this, {
             type: 'line',
             options: {
+                responsive: true,
                 scales: {
                     yAxes: [{
                         gridLines: {
@@ -18,16 +19,37 @@ var SalesChart = (function () {
                             zeroLineColor: Charts.colors.gray[200]
                         },
                         ticks: {
-
+                            beginAtZero: false,
+                        },
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Human Population',
+                            fontSize: 15
+                        }
+                    }],
+                    xAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Year',
+                            fontSize: 15
                         }
                     }]
                 }
             },
             data: {
-                labels: [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+                labels: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
                 datasets: [{
-                    label: 'Performance',
-                    data: [590, 579, 569, 559, 549, 539, 530, 520, 524, 528, 531, 535, 539, 543, 546, 550, 554, 554, 554]
+                    label: 'Infected',
+                    data: [531, 535, 539, 543, 546, 550, 554, 554, 554, 590],
+                    borderColor: Charts.colors.theme['danger'],
+                    borderJoinStyle: 'miter',
+                    pointBorderColor: "black",
+                    pointBackgroundColor: Charts.colors.theme['danger'],
+                    pointBorderWidth: 1,
+                    pointHoverRadius: 8,
+                    pointRadius: 3,
+                    pointHitRadius: 10,
+                    lineTension: 0.1,
                 }]
             }
         });

@@ -1,0 +1,65 @@
+<div class="col">
+  <div class="card">
+    <!-- Card header -->
+    <div class="table-responsive py-4">
+      <table class="table table-flush" id="datatable-buttons">
+        <thead class="thead-light">
+          <tr>
+            <th>Medical ID</th>
+            <th>Gender</th>
+            <th>Email</th>
+            <th>Contact Number</th>
+            <th>Marital Status</th>
+            <th>Birthdate</th>
+            <th>Medical Problems</th>
+            <th>Medications</th>
+            <th>Last Update</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th>Medical ID</th>
+            <th>Gender</th>
+            <th>Email</th>
+            <th>Contact Number</th>
+            <th>Marital Status</th>
+            <th>Birthdate</th>
+            <th>Medical Problems</th>
+            <th>Medications</th>
+            <th>Last Update</th>
+            <th>Actions</th>
+          </tr>
+        </tfoot>
+        <tbody>
+          {% for p in patient %}
+          <tr>
+            <td>MDHAU{{p.id}}SH102</td>
+            <td>{{p.gender}}</td>
+            <td>{{p.email}}</td>
+            <td>{{p.homeNumber}}</td>
+            <td>{{p.maritalStatus}}</td>
+            <td>{{p.birthDate}}</td>
+            <td>{{p.medicalProblems}}</td>
+            <td>{{p.medications}}</td>
+            <td>{{p.date_created}}</td>
+            <td>
+              <div class="btn-group">
+                <button type="button" class="btn btn-info btn-sm">
+                  View
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Update
+                </button>
+                <button type="button" class="btn btn-danger btn-sm">
+                  Delete
+                </button>
+              </div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

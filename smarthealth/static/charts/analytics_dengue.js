@@ -2,7 +2,7 @@ var DoughnutChart = (function () {
 
     // Variables
 
-    var $chart = $('#chart-doughnut');
+    var $chart = $('#analytics-dengue');
 
 
     // Methods
@@ -34,6 +34,7 @@ var DoughnutChart = (function () {
                 }],
             },
             options: {
+                cutoutPercentage: 50,
                 responsive: true,
                 legend: {
                     position: 'top',

@@ -1003,7 +1003,74 @@ var BarStackedChart = (function () {
 // Doughnut chart
 //
 
+var DoughnutChart = (function () {
 
+	// Variables
+
+	var $chart = $('#chart-doughnut');
+
+
+	// Methods
+
+	function init($this) {
+		var randomScalingFactor = function () {
+			return Math.round(Math.random() * 100);
+		};
+
+		var doughnutChart = new Chart($this, {
+			type: 'doughnut',
+			data: {
+				labels: [
+					'Danger',
+					'Warning',
+					'Success',
+					'Primary',
+					'Info'
+				],
+				datasets: [{
+					data: [
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+					],
+					backgroundColor: [
+						Charts.colors.theme['danger'],
+						Charts.colors.theme['warning'],
+						Charts.colors.theme['success'],
+						Charts.colors.theme['primary'],
+						Charts.colors.theme['info'],
+					],
+					label: 'Dataset 1'
+				}],
+			},
+			options: {
+				responsive: true,
+				legend: {
+					position: 'top',
+				},
+				animation: {
+					animateScale: true,
+					animateRotate: true
+				}
+			}
+		});
+
+		// Save to jQuery object
+
+		$this.data('chart', doughnutChart);
+
+	};
+
+
+	// Events
+
+	if ($chart.length) {
+		init($chart);
+	}
+
+})();
 
 //
 // Charts
@@ -1156,7 +1223,54 @@ var PointsChart = (function () {
 // Sales chart
 //
 
+var SalesChart = (function () {
 
+	// Variables
+
+	var $chart = $('#chart-sales-dark');
+
+
+	// Methods
+
+	function init($this) {
+		var salesChart = new Chart($this, {
+			type: 'line',
+			options: {
+				scales: {
+					yAxes: [{
+						gridLines: {
+							color: Charts.colors.gray[700],
+							zeroLineColor: Charts.colors.gray[700]
+						},
+						ticks: {
+
+						}
+					}]
+				}
+			},
+			data: {
+				labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+				datasets: [{
+					label: 'Performance',
+					data: [0, 20, 10, 30, 15, 40, 20, 60, 60]
+				}]
+			}
+		});
+
+		// Save to jQuery object
+
+		$this.data('chart', salesChart);
+
+	};
+
+
+	// Events
+
+	if ($chart.length) {
+		init($chart);
+	}
+
+})();
 
 //
 // Charts
@@ -1194,7 +1308,7 @@ var SalesChart = (function () {
 				}
 			},
 			data: {
-				labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+				labels: ['May', 'J4343un', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
 				datasets: [{
 					label: 'Performance',
 					data: [0, 20, 10, 30, 15, 40, 20, 60, 60]
@@ -1221,6 +1335,45 @@ var SalesChart = (function () {
 // Bars chart
 //
 
+var BarsChart = (function () {
+
+	//
+	// Variables
+	//
+
+	var $chart = $('#chart-bars');
+
+
+	//
+	// Methods
+	//
+
+	// Init chart
+	function initChart($chart) {
+
+		// Create chart
+		var ordersChart = new Chart($chart, {
+			type: 'bar',
+			data: {
+				labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+				datasets: [{
+					label: 'Sales',
+					data: [25, 20, 30, 22, 17, 29]
+				}]
+			}
+		});
+
+		// Save to jQuery object
+		$chart.data('chart', ordersChart);
+	}
+
+
+	// Init chart
+	if ($chart.length) {
+		initChart($chart);
+	}
+
+})();
 
 //
 // Charts

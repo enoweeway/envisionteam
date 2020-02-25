@@ -46,7 +46,7 @@
           <a href="#" class="nav-link">Add New Doctors</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">View All Doctors</a>
+          <a href="{% url 'doctors_list' %}" class="nav-link">View All Doctors</a>
         </li>
       </ul>
     </div>
@@ -69,7 +69,7 @@
           <a href="#" class="nav-link">Add New Patient</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">View All Patients</a>
+          <a href="{% url 'patients_list' %}" class="nav-link">View All Patients</a>
         </li>
       </ul>
     </div>
@@ -92,10 +92,10 @@
           <a href="#" class="nav-link">Add New Item</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">View All Medical Items</a>
+          <a href="{% url 'items_list' %}" class="nav-link">View All Medical Items</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">View All Medical Drugs</a>
+          <a href="{% url 'drugs_list' %}" class="nav-link">View All Medical Drugs</a>
         </li>
       </ul>
     </div>

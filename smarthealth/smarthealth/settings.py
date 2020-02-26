@@ -43,9 +43,9 @@ INSTALLED_APPS = [
     'doctors',
     'inventory',
     'patients',
-    'authentication',
     'nurses',
     'userprofile',
+    'users'
 ]
 
 MIDDLEWARE = [
@@ -132,3 +132,13 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+
+LOGIN_REDIRECT_URL = 'dashboard'
+LOGOUT_REDIRECT_URL = 'login'
+
+AUTH_USER_MODEL = 'users.CustomUser'
+
+AUTHENTICATION_BACKENDS = (
+    'users.backend.EmailOrUsernameModelBackend',
+    'django.contrib.auth.backends.ModelBackend'
+)

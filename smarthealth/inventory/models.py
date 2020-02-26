@@ -73,7 +73,7 @@ class Drug(models.Model):
     quantity = models.IntegerField()
     category = models.CharField(max_length=100, null=True, choices=CATEGORY)
     date_created = models.DateField(auto_now_add=True)
-    genericName = models.CharField(max_length=100, blank=True, default='Unknown', editable=True)
+    genericName = models.CharField(max_length=100, blank=True)
 
     def __str__(self):
         return self.name + '-' + self.genericName

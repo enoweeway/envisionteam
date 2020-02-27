@@ -30,6 +30,7 @@
             <th>Hospital Name</th>
             <th>Email</th>
             <th>Date Joined</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tfoot>
@@ -37,6 +38,7 @@
             <th>Hospital Name</th>
             <th>Email</th>
             <th>Date Joined</th>
+            <th>Actions</th>
           </tr>
         </tfoot>
         <tbody>
@@ -50,9 +52,6 @@
 
             <td>
               <div class="btn-group">
-                <button type="button" class="btn btn-info btn-sm">
-                  <a href="{% url 'users:profile' client.username %}">View</a>
-                </button>
                 <button type="button" class="btn btn-success btn-sm">
                   Update
                 </button>

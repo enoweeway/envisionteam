@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dda49c6-6683-4d45-bcad-8b59c2fcba6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/inventory/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/inventory/add_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/migrations/0011_auto_20200228_0016.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/authentication/views/snippets/form_add_user_admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarthealth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/smarthealth/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/containers/layouts/navbar/whosin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/containers/layouts/navbar/whosin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_client.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_client.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/inventory/data/data_drugs_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inventory/data/data_drugs_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/inventory/data/data_items_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inventory/data/data_items_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nurses/data/data_nurses_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nurses/data/data_nurses_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/patients/data/data_patients_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patients/data/data_patients_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/authentication/views/loginpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/authentication/views/loginpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/authentication/views/snippets/add_user_pang_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/authentication/views/snippets/add_user_pang_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/clients/data/data_clients_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/clients/data/data_clients_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/containers/layouts/navbar/main_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/containers/layouts/navbar/main_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/containers/layouts/searchbar/searchbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/containers/layouts/searchbar/searchbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +159,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/containers/layouts/navbar/whosin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="99">
               <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
             </state>
           </provider>
@@ -385,24 +377,17 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/smarthealth.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/__pycache__/__init__.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/__pycache__/admin.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/__pycache__/models.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/__pycache__/urls.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/__pycache__/views.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/migrations/__pycache__/__init__.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/urls.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/views.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/db.sqlite3</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/doctors/__pycache__/__init__.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/doctors/__pycache__/admin.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/doctors/__pycache__/models.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/__pycache__/__init__.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/__pycache__/admin.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/__pycache__/models.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0001_initial.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0002_auto_20200226_0146.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0003_auto_20200226_1029.cpython-38.pyc</PATH>
@@ -412,6 +397,7 @@
           <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0007_auto_20200226_2107.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0008_auto_20200226_2258.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0009_auto_20200226_2300.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0010_auto_20200227_0841.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/__init__.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/nurses/__pycache__/__init__.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/nurses/__pycache__/admin.cpython-38.pyc</PATH>
@@ -420,20 +406,13 @@
           <PATH vcs="Git" revision="">$PROJECT_DIR$/patients/__pycache__/admin.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/patients/__pycache__/models.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/smarthealth/__pycache__/__init__.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/smarthealth/__pycache__/settings.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/smarthealth/__pycache__/urls.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/smarthealth/__pycache__/wsgi.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/charts/patients_chart_total_patient.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/authentication/views/add_user.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/components/js.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/layouts/navbar/whosin.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_admin.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/layouts/sidenavbar/main_sidenavbar.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/data/analytics_main_header.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/views/analytics_dashboard.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/views/patient_dashboard.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/patients/data/data_patients_table.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/users/profile.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/authentication/views/loginpage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/authentication/views/snippets/add_user_pang_admin.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/clients/data/data_clients_table.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/layouts/navbar/main_navbar.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/layouts/searchbar/searchbar.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/userprofile/__pycache__/__init__.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/userprofile/__pycache__/admin.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/userprofile/__pycache__/models.cpython-38.pyc</PATH>
@@ -441,14 +420,9 @@
           <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/__init__.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/admin.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/backend.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/forms.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/models.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/urls.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/views.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/0001_initial.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/0001_initial.cpython-38.pyc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/__init__.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/views.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -456,30 +430,9 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/0010_auto_20200227_0841.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0010_auto_20200227_0841.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/blue.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/ie6.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/ie7.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/print.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/cufon.yui.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/custom.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery-1.4.2.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery-3.4.1.slim.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.colorbox.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.tipsy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/myriad.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/popper.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/scrollTo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/authentication/views/snippets/add_user_pang_doctor_at_nurse.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_doctor.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/charts/client_chart_total_client.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/data/client_main_header.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/views/client_dashboard.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/0011_auto_20200228_0016.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0011_auto_20200228_0016.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/authentication/views/snippets/form_add_user_admin.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -487,14 +440,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/0002_auto_20200226_1952.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/0003_auto_20200226_2107.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/0004_auto_20200226_2258.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/0005_auto_20200226_2300.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/0002_auto_20200226_1952.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/0003_auto_20200226_2107.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/0004_auto_20200226_2258.cpython-38.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/0005_auto_20200226_2300.cpython-38.pyc</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -524,6 +469,13 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        <PATH vcs="Git" revision="">$PROJECT_DIR$/smarthealth/__pycache__/settings.cpython-38.pyc</PATH>
+        <PATH vcs="Git" revision="">$PROJECT_DIR$/smarthealth/__pycache__/urls.cpython-38.pyc</PATH>
+        <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/forms.cpython-38.pyc</PATH>
+        <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/models.cpython-38.pyc</PATH>
+        <PATH vcs="Git" revision="">$PROJECT_DIR$/db.sqlite3</PATH>
+        <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/views.cpython-38.pyc</PATH>
+        <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/__pycache__/models.cpython-38.pyc</PATH>
       </FILE-GROUP>
       <FILE-GROUP>
         <option name="myUpdateName" value="Merged with tree conflicts" />
@@ -628,9 +580,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27155825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27155825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -644,7 +595,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21230769" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1010,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/containers/layouts/navbar/whosin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="99">
           <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
         </state>
       </provider>

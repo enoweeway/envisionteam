@@ -134,6 +134,12 @@ class CustomUser(AbstractUser):
         ('Legally Seperated', 'Legally Seperated'),
         ('Widowed', 'Widowed')
     )
+    WARD_CHOICES = (
+        ('SH-102', 'SH-102'),
+        ('SH-101', 'SH-101'),
+        ('SH-201', 'SH-201'),
+    )
+    ward = models.CharField(max_length=10, choices=WARD_CHOICES, blank=True)
     maritalStatus = models.CharField(max_length=20, null=True, choices=STATUS, blank=True)
     userType = models.CharField(max_length=100, choices=USER_TYPE, blank=False, default='New')
     gender = models.CharField(max_length=20, choices=GENDER_CHOICES, blank=False)

@@ -20,11 +20,12 @@ def login_page(request):
         user = form.login(request)
         print(user)
         if user:
-            login(request,user, backend='django.contrib.auth.backends.ModelBackend')
+            login(request,user)
             if user.is_superuser:
                 return redirect('clientDashboard')
             else:
                 return redirect('dashboard')
+
     context = {
         "form": form
     }

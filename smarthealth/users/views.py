@@ -3,6 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.contrib.auth import login
 from django.shortcuts import render, redirect
+from django.template.defaultfilters import cut
 from django.views.generic import ListView, CreateView
 from users.backend import EmailOrUsernameModelBackend
 
@@ -19,9 +20,11 @@ def login_page(request):
         user = form.login(request)
         print(user)
         if user:
-
             login(request,user, backend='django.contrib.auth.backends.ModelBackend')
-            return redirect('dashboard')
+            if user.is_superuser:
+                return redirect('clientDashboard')
+            else:
+                return redirect('dashboard')
     context = {
         "form": form
     }
@@ -42,7 +45,7 @@ def SignUp(request):
                                                  )
                 obj.save()
                 if request.user.is_authenticated:
-                    return redirect('dashboard')
+                    return redirect('users:addUser')
                 else:
                     return render(request, 'authentication/views/error.html', {})
             elif request.user.userType == 'Client':
@@ -61,10 +64,39 @@ def SignUp(request):
                 )
                 obj.save()
                 if request.user.is_authenticated:
-                    return redirect('dashboard')
+                    return redirect('users:addUser')
                 else:
                     return render(request, 'authentication/views/error.html', {})
+            elif request.user.userType == 'Doctor' or request.user.userType == 'Nurse':
+                first_name = request.POST['firstName']
+                lower_fname = first_name.replace(" ", "").lower()
+                middle_name = request.POST['middleName']
+                lower_mname = middle_name.replace(" ", "").lower()
+                last_name = request.POST['lastName']
+                lower_lname = last_name.replace(" ", "").lower()
+                mobileNumber = request.POST['mobile_number']
+                hashed_password = make_password(lower_mname)
+                username = lower_fname + lower_lname + mobileNumber
 
+                obj = CustomUser.objects.create(
+                    username=username,
+                    firstName=first_name,
+                    middleName=middle_name,
+                    lastName=last_name,
+                    email=request.POST['email'],
+                    mobile_number=mobileNumber,
+                    gender=request.POST['gender'],
+                    password=hashed_password,
+                    userType=request.POST['userType']
+                )
+                obj.save()
+                if request.user.is_authenticated:
+                    return redirect('users:addUser')
+                else:
+                    return render(request, 'authentication/views/error.html', {})
+    else:
+        form = CustomUserCreationForm()
+    return render(request, 'authentication/views/add_user.html', {'form': form})
 
 
 
@@ -89,12 +121,12 @@ class DoctorListView(ListView):
         return context
 
 class PatientListView(ListView):
-    template_name = "users/list_patient.html"
+    template_name = "patients/views/patients_table.html"
     def get_queryset(self, *args, **kwargs):
 
-        patient = CustomUser.objects.filter(userType="Patient")
+        qs = CustomUser.objects.filter(userType="Patient")
         context = {
-            'patient': patient
+            'qs': qs
         }
         return context
 
@@ -120,7 +152,7 @@ def edit_profile(request, username):
         if user.username == request.user.username or request.user.is_superuser:
             return render(request, 'users/edit_profile.html', args)
         else:
-            return render(request, 'auth/error.html', {})
+            return render(request, 'authentication/views/error.html', {})
 
 class user_profile(ListView):
     model = UserProfile
@@ -135,4 +167,6 @@ def get_user_profile(request, username):
     if request.user.username == user.username or request.user.is_superuser:
         return render(request, 'users/profile.html', {"user":user})
     else:
-        return render(request, 'auth/error.html', {})
+        return render(request, 'authentication/views/error.html', {})
+
+

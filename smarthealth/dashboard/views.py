@@ -1,5 +1,11 @@
+from datetime import date, datetime
+from time import strftime
+
 from django.contrib.auth.hashers import make_password
+from django.db.models import Count
+from django.db.models.functions import TruncMonth
 from django.shortcuts import render, redirect
+from pipenv.vendor.tomlkit import item
 
 from users.models import CustomUser
 
@@ -43,3 +49,50 @@ def dashboard(request):
         return render(request, 'dashboards/views/patient_dashboard.html', {})
     else:
         return redirect('users:login')
+def analytic_dashbaord(request):
+    if request.user.userType == 'Doctor' or request.user.userType == 'Client':
+        return render(request, 'dashboards/views/analytics_dashboard.html', {})
+    else:
+        return render(request, 'authentication/views/error.html', {})
+
+def client_dashboard(request):
+    if request.user.is_superuser:
+        today = date.today().strftime('%m')
+        print(today)
+        qs = CustomUser.objects.filter(userType='Client').count()
+        sample = CustomUser.objects.annotate(month=TruncMonth('date_joined')).values('month').annotate(total=Count('date_joined')).filter(userType='Client', date_joined__month=today)
+        set = CustomUser.objects.annotate(month=TruncMonth('date_joined')).values('month').annotate(total=Count('date_joined')).filter(userType='Client').values_list('total', flat=True)
+        monthSet = CustomUser.objects.filter(userType='Client').annotate(month=TruncMonth('date_joined')).values_list('date_joined__month', flat=True).annotate(total=Count('date_joined__month'))
+        fck = CustomUser.objects.annotate(month=TruncMonth('date_joined')).values('month').annotate(total=Count('date_joined')).filter(userType='Client')
+
+        arrayTotal = list(set)
+
+        monthTotal = list(monthSet)
+        # formatted = [i for i in monthTotal i.strftime('%B')]
+        # print(formatted)
+
+        # print(arrayMonth)
+
+        months = []
+        for test in fck:
+            formatedMonth = test['month'].strftime('%b')
+            fMonth = str(formatedMonth)
+            months.append(fMonth)
+        print(months)
+        # feb = set[0]['total']
+        # march = set[1]['total']
+        # print(feb)
+        # print(march)
+        context = {
+            'qs': qs,
+            'set': set,
+            'sample': sample,
+            'formatedMonth': formatedMonth,
+            'arrayTotal': arrayTotal,
+            'monthTotal': monthTotal,
+            'months': months
+
+        }
+        return render(request, 'dashboards/views/client_dashboard.html', context)
+    else:
+        return render(request, 'authentication/views/error.html', {})

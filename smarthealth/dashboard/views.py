@@ -60,13 +60,10 @@ def client_dashboard(request):
         today = date.today().strftime('%m')
         print(today)
         qs = CustomUser.objects.filter(userType='Client').count()
-        sample = CustomUser.objects.annotate(month=TruncMonth('date_joined')).values('month').annotate(total=Count('date_joined')).filter(userType='Client', date_joined__month=today)
+        sample = CustomUser.objects.annotate(month=TruncMonth('date_joined'))\
+            .values('month').annotate(total=Count('date_joined')).filter(userType='Client', date_joined__month=today)
         set = CustomUser.objects.annotate(month=TruncMonth('date_joined')).values('month').annotate(total=Count('date_joined')).filter(userType='Client').values_list('total', flat=True)
         monthSet = CustomUser.objects.filter(userType='Client').annotate(month=TruncMonth('date_joined')).values_list('date_joined__month', flat=True).annotate(total=Count('date_joined__month'))
-        fck = CustomUser.objects.annotate(month=TruncMonth('date_joined')).values('month').annotate(total=Count('date_joined')).filter(userType='Client')
-        last = CustomUser.objects.filter(userType='Client').annotate(date=TruncDate('date_joined')).values('date')
-        arnaz = CustomUser.objects.annotate(month=TruncMonth('date_joined')).values('month').annotate(
-            total=Count('date_joined')).filter(userType='Client').values_list('month', flat=True)
         arrayTotal = list(set)
 
         monthTotal = list(monthSet)
@@ -74,24 +71,14 @@ def client_dashboard(request):
         for month in sample:
             monthToday = month['month'].strftime('%b')
 
-        for test in arnaz:
-            formatedMonth = test
-            fMonth = str(formatedMonth)
-
-            months.append(formatedMonth.strftime('%B%Y'))
-
-        futa = ', '.join(months)
-        print(arnaz)
         context = {
             'qs': qs,
             'set': set,
             'sample': sample,
-            'formatedMonth': formatedMonth,
             'arrayTotal': arrayTotal,
             'monthTotal': monthTotal,
             'months': months,
-            'monthToday': monthToday,
-            'futa': futa
+            'monthToday': monthToday
         }
         return render(request, 'dashboards/views/client_dashboard.html', context)
     else:

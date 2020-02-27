@@ -20,6 +20,11 @@
   <body class="bg-default">
     <!-- Main content -->
     <div class="main-content">
+
+
+    {% include 'containers/layouts/sidenavbar/main_sidenavbar.html' %}
+
+    {% include 'containers/layouts/navbar/topnav.html' %}
       <!-- Header -->
       <div class="header bg-gradient-primary py-7 py-lg-8">
         <div class="container">
@@ -29,6 +34,7 @@
             </div>
           </div>
         </div>
+
         <div class="separator separator-bottom separator-skew zindex-100">
           <svg
             x="0"
@@ -64,20 +70,37 @@
 
                   {% if request.user.is_superuser %}
                         {% include 'authentication/views/snippets/add_user_pang_admin.html' %}
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary my-4">
+                                Add User
+                            </button>
+                        </div>
+                        <div class="text-center">
+                            <a href="{% url 'clientDashboard' %}">Home</a>
+                        </div>
                   {% elif request.user.userType == "Client" %}
                         {% include 'authentication/views/snippets/add_user_pang_client.html' %}
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary my-4">
+                                Add User
+                            </button>
+                        </div>
+                        <div class="text-center">
+                            <a href="{% url 'analyticDashboard' %}">Home</a>
+                        </div>
                   {% elif request.user.userType == "Doctor" or request.user.userType == "Nurse" %}
                         {% include 'authentication/views/snippets/add_user_pang_doctor_at_nurse.html' %}
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary my-4">
+                                Add User
+                            </button>
+                        </div>
+                        <div class="text-center">
+                            <a href="{% url 'dashboard' %}">Home</a>
+                        </div>
                   {% endif %}
 
-                  <div class="text-center">
-                    <button type="submit" class="btn btn-primary my-4">
-                      Add User
-                    </button>
-                  </div>
-                    <div class="text-center">
-                    <a href="{% url 'dashboard' %}">Home</a>
-                  </div>
+
                 </form>
               </div>
             </div>

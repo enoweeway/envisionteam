@@ -2,51 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dda49c6-6683-4d45-bcad-8b59c2fcba6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/ie6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/ie7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/cufon.yui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.4.1.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.colorbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.tipsy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/myriad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/scrollTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/authentication/views/snippets/add_user_pang_doctor_at_nurse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_doctor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboards/charts/client_chart_total_client.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboards/data/client_main_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboards/views/client_dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/smarthealth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smarthealth.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/charts/patients_chart_total_patient.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/charts/patients_chart_total_patient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/authentication/views/add_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/authentication/views/add_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/containers/components/js.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/containers/components/js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/containers/layouts/navbar/whosin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/containers/layouts/navbar/whosin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/clients/data/data_clients_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/clients/data/data_clients_table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/main_sidenavbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/main_sidenavbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboards/data/analytics_main_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboards/data/analytics_main_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboards/views/patient_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboards/views/patient_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboards/views/client_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboards/views/client_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctors/data/data_doctors_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctors/data/data_doctors_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nurses/data/data_nurses_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nurses/data/data_nurses_table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/patients/data/data_patients_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patients/data/data_patients_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0002_auto_20200226_1952.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0003_auto_20200226_2107.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0004_auto_20200226_2258.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0005_auto_20200226_2300.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +26,141 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-939917529">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="54" />
+          <entry key="js" value="1" />
+          <entry key="py" value="67" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="54" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Python" value="67" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="2442" />
+          <entry key="js" value="1" />
+          <entry key="py" value="3193" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="2442" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Python" value="3193" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="167" column="12" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="12" />
+              <folding>
+                <marker date="1582803102255" expanded="true" signature="6894:7350" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dashboards/charts/client_chart_total_client.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-391">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/charts/patients_chart_total_patient.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2312">
+              <caret line="136" column="89" selection-start-line="136" selection-start-column="89" selection-end-line="136" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dashboards/views/client_dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="112" column="108" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/authentication/views/add_user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="72" column="18" selection-start-line="78" selection-start-column="59" selection-end-line="79" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/containers/components/js.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dashboard/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,36 +178,454 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1YMrpJA2flpSCY2jLZZT0WTsi3D" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/auth/views.py" />
+        <option value="$PROJECT_DIR$/auth/forms.py" />
+        <option value="$PROJECT_DIR$/auth/backend.py" />
+        <option value="$PROJECT_DIR$/auth/urls.py" />
+        <option value="$PROJECT_DIR$/users/backend.py" />
+        <option value="$PROJECT_DIR$/users/admin.py" />
+        <option value="$PROJECT_DIR$/doctors/admin.py" />
+        <option value="$PROJECT_DIR$/nurses/admin.py" />
+        <option value="$PROJECT_DIR$/patients/admin.py" />
+        <option value="$PROJECT_DIR$/nurses/models.py" />
+        <option value="$PROJECT_DIR$/patients/models.py" />
+        <option value="$PROJECT_DIR$/doctors/models.py" />
+        <option value="$PROJECT_DIR$/dashboard/urls.py" />
+        <option value="$PROJECT_DIR$/smarthealth/urls.py" />
+        <option value="$PROJECT_DIR$/smarthealth/settings.py" />
+        <option value="$PROJECT_DIR$/templates/authentication/views/loginpage.html" />
+        <option value="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar.html" />
+        <option value="$PROJECT_DIR$/templates/dashboards/data/patient_main_header.html" />
+        <option value="$PROJECT_DIR$/templates/dashboards/charts/patient_chart_total_patient.html" />
+        <option value="$PROJECT_DIR$/templates/authentication/views/error.html" />
+        <option value="$PROJECT_DIR$/users/forms.py" />
+        <option value="$PROJECT_DIR$/templates/containers/layouts/navbar/whosin.html" />
+        <option value="$PROJECT_DIR$/templates/clients/layouts/clients_main_header.html" />
+        <option value="$PROJECT_DIR$/templates/clients/views/clients_table.html" />
+        <option value="$PROJECT_DIR$/templates/authentication/views/snippets/add_user_pang_admin.html" />
+        <option value="$PROJECT_DIR$/templates/authentication/views/add_user.html" />
+        <option value="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/main_sidenavbar.html" />
+        <option value="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_client.html" />
+        <option value="$PROJECT_DIR$/templates/authentication/views/snippets/add_user_pang_client.html" />
+        <option value="$PROJECT_DIR$/users/models.py" />
+        <option value="$PROJECT_DIR$/templates/dashboards/views/analytics_dashboard.html" />
+        <option value="$PROJECT_DIR$/templates/dashboards/views/patient_dashboard.html" />
+        <option value="$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html" />
+        <option value="$PROJECT_DIR$/users/urls.py" />
+        <option value="$PROJECT_DIR$/templates/clients/data/data_clients_table.html" />
+        <option value="$PROJECT_DIR$/templates/doctors/data/data_doctors_table.html" />
+        <option value="$PROJECT_DIR$/templates/nurses/data/data_nurses_table.html" />
+        <option value="$PROJECT_DIR$/templates/patients/data/data_patients_table.html" />
+        <option value="$PROJECT_DIR$/users/views.py" />
+        <option value="$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_admin.html" />
+        <option value="$PROJECT_DIR$/templates/containers/components/js.html" />
+        <option value="$PROJECT_DIR$/static/charts/patients_chart_total_patient.js" />
+        <option value="$PROJECT_DIR$/templates/dashboards/views/client_dashboard.html" />
+        <option value="$PROJECT_DIR$/dashboard/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="snippets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="sidenavbar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboards" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboards" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboards" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthealth" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../backup" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Linkmind3\PycharmProjects\envisionteam\smarthealth\static\js" />
-      <recent name="C:\Users\Linkmind3\PycharmProjects\envisionteam\smarthealth\static\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\djangoTutorials\envisionteam\smarthealth\auth" />
       <recent name="E:\djangoTutorials\envisionteam\smarthealth\patients" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/smarthealth.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/__pycache__/admin.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/__pycache__/models.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/__pycache__/urls.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/__pycache__/views.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/migrations/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/dashboard/views.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/db.sqlite3</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doctors/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doctors/__pycache__/admin.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doctors/__pycache__/models.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/__pycache__/admin.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/__pycache__/models.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0001_initial.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0002_auto_20200226_0146.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0003_auto_20200226_1029.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0004_auto_20200226_1904.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0005_auto_20200226_1941.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0006_auto_20200226_1952.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0007_auto_20200226_2107.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0008_auto_20200226_2258.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0009_auto_20200226_2300.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/nurses/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/nurses/__pycache__/admin.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/nurses/__pycache__/models.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/patients/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/patients/__pycache__/admin.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/patients/__pycache__/models.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/smarthealth/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/smarthealth/__pycache__/settings.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/smarthealth/__pycache__/urls.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/smarthealth/__pycache__/wsgi.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/charts/patients_chart_total_patient.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/authentication/views/add_user.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/components/js.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/layouts/navbar/whosin.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_admin.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/layouts/sidenavbar/main_sidenavbar.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/data/analytics_main_header.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/views/analytics_dashboard.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/views/patient_dashboard.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/patients/data/data_patients_table.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/users/profile.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/userprofile/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/userprofile/__pycache__/admin.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/userprofile/__pycache__/models.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/userprofile/migrations/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/admin.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/backend.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/forms.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/models.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/urls.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/__pycache__/views.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/0001_initial.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/0001_initial.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/__init__.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/views.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/0010_auto_20200227_0841.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/inventory/migrations/__pycache__/0010_auto_20200227_0841.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/blue.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/ie6.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/ie7.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/print.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/cufon.yui.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/custom.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery-1.4.2.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery-3.4.1.slim.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.colorbox.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.tipsy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/myriad.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/popper.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/scrollTo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/authentication/views/snippets/add_user_pang_doctor_at_nurse.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_doctor.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/charts/client_chart_total_client.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/data/client_main_header.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dashboards/views/client_dashboard.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/0002_auto_20200226_1952.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/0003_auto_20200226_2107.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/0004_auto_20200226_2258.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/0005_auto_20200226_2300.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/0002_auto_20200226_1952.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/0003_auto_20200226_2107.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/0004_auto_20200226_2258.cpython-38.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/users/migrations/__pycache__/0005_auto_20200226_2300.cpython-38.pyc</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="smarthealth" type="Python.DjangoServer" factoryName="Django server">
@@ -137,27 +662,353 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582713992418</updated>
-      <workItem from="1582763488057" duration="189000" />
-      <workItem from="1582764006438" duration="11000" />
-      <workItem from="1582764045582" duration="26247000" />
     </task>
     <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27155825" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25384617" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="296" key="FileChooserDialogImpl" timestamp="1582767807483">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="740" y="296" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582767807483" />
-    <state x="461" y="183" key="SettingsEditor" timestamp="1582763665735">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="461" y="183" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582763665735" />
-    <state x="616" y="192" width="672" height="676" key="search.everywhere.popup" timestamp="1582776315420">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="616" y="192" width="672" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582776315420" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/patients/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/models.py" />
+    <entry file="file://$PROJECT_DIR$/nurses/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patients/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctors/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctors/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentication/views.py" />
+    <entry file="file://$PROJECT_DIR$/dashboard/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthealth/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthealth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboards/data/patient_main_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboards/data/patient_cards_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1267" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboards/data/analytics_main_header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/containers/layouts/navbar/main_navbar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="151" column="7" lean-forward="true" selection-end-line="165" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authentication/views/loginpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="83" column="25" lean-forward="true" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authentication/views/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="62" column="103" selection-start-line="62" selection-start-column="103" selection-end-line="62" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/containers/layouts/navbar/whosin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clients/layouts/clients_main_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/doctors/layouts/doctors_main_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clients/views/clients_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/containers/layouts/sidenavbar/main_sidenavbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="76" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/doctors/views/doctors_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authentication/views/snippets/add_user_pang_client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authentication/views/snippets/add_user_pang_admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-end-line="78" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboards/views/analytics_dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboards/views/patient_dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/clients/data/data_clients_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="59" column="79" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/doctors/data/data_doctors_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nurses/data/data_nurses_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/patients/data/data_patients_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile/views/user_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1008" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile/data/data_user_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile/layouts/user_profile_main_header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/containers/layouts/sidenavbar/item_sidenavbar_admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboards/charts/client_chart_total_client.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/containers/components/js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="167" column="12" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="12" />
+          <folding>
+            <marker date="1582803102255" expanded="true" signature="6894:7350" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/charts/patients_chart_total_patient.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboards/charts/patient_chart_total_patient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboards/data/client_cards_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboards/views/client_dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="112" column="108" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="136" column="89" selection-start-line="136" selection-start-column="89" selection-end-line="136" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authentication/views/add_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="72" column="18" selection-start-line="78" selection-start-column="59" selection-end-line="79" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

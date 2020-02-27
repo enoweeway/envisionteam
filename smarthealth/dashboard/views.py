@@ -3,9 +3,9 @@ from time import strftime
 
 from django.contrib.auth.hashers import make_password
 from django.db.models import Count
-from django.db.models.functions import TruncMonth
+from django.db.models.functions import TruncMonth, TruncDate
 from django.shortcuts import render, redirect
-from pipenv.vendor.tomlkit import item
+# from pipenv.vendor.tomlkit import item
 
 from users.models import CustomUser
 
@@ -64,25 +64,24 @@ def client_dashboard(request):
         set = CustomUser.objects.annotate(month=TruncMonth('date_joined')).values('month').annotate(total=Count('date_joined')).filter(userType='Client').values_list('total', flat=True)
         monthSet = CustomUser.objects.filter(userType='Client').annotate(month=TruncMonth('date_joined')).values_list('date_joined__month', flat=True).annotate(total=Count('date_joined__month'))
         fck = CustomUser.objects.annotate(month=TruncMonth('date_joined')).values('month').annotate(total=Count('date_joined')).filter(userType='Client')
-
+        last = CustomUser.objects.filter(userType='Client').annotate(date=TruncDate('date_joined')).values('date')
+        arnaz = CustomUser.objects.annotate(month=TruncMonth('date_joined')).values('month').annotate(
+            total=Count('date_joined')).filter(userType='Client').values_list('month', flat=True)
         arrayTotal = list(set)
 
         monthTotal = list(monthSet)
-        # formatted = [i for i in monthTotal i.strftime('%B')]
-        # print(formatted)
-
-        # print(arrayMonth)
-
         months = []
-        for test in fck:
-            formatedMonth = test['month'].strftime('%b')
+        for month in sample:
+            monthToday = month['month'].strftime('%b')
+
+        for test in arnaz:
+            formatedMonth = test
             fMonth = str(formatedMonth)
-            months.append(fMonth)
-        print(months)
-        # feb = set[0]['total']
-        # march = set[1]['total']
-        # print(feb)
-        # print(march)
+
+            months.append(formatedMonth.strftime('%B%Y'))
+
+        futa = ', '.join(months)
+        print(arnaz)
         context = {
             'qs': qs,
             'set': set,
@@ -90,8 +89,9 @@ def client_dashboard(request):
             'formatedMonth': formatedMonth,
             'arrayTotal': arrayTotal,
             'monthTotal': monthTotal,
-            'months': months
-
+            'months': months,
+            'monthToday': monthToday,
+            'futa': futa
         }
         return render(request, 'dashboards/views/client_dashboard.html', context)
     else:

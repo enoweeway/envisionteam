@@ -42,7 +42,7 @@
                   Update
                 </button>
                 <button type="button" class="btn btn-danger btn-sm">
-                  Delete
+                  <a href="{% url 'users:delete' n.username %}">Delete</a>
                 </button>
               </div>
             </td>

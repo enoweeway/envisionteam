@@ -164,9 +164,23 @@ class user_profile(ListView):
 
 def get_user_profile(request, username):
     user = CustomUser.objects.get(username=username)
-    if request.user.username == user.username or request.user.is_superuser:
+    if request.user.username == user.username or request.user.is_superuser or request.user.userType == 'Client' \
+            or request.user.userType == 'Doctor' or request.user.userType == 'Nurse':
         return render(request, 'users/profile.html', {"user":user})
     else:
         return render(request, 'authentication/views/error.html', {})
 
+def delete(request, username):
+    user = CustomUser.objects.get(username=username)
+    if request.user.is_superuser:
+        user.delete()
+        return redirect('users:clientList')
+    elif request.user.userType == 'Client':
+        user.delete()
+        return redirect('users:doctorList')
+    elif request.user.userType == 'Doctor':
+        user.delete()
+        return redirect('users:patientList')
+    else:
+        return render(request, 'authentication/views/error.html', {})
 

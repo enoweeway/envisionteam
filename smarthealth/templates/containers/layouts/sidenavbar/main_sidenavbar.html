@@ -39,6 +39,8 @@
             {% include 'containers/layouts/sidenavbar/item_sidenavbar_admin.html' %}
         {% elif request.user.userType == 'Client' %}
             {% include 'containers/layouts/sidenavbar/item_sidenavbar_client.html' %}
+        {% elif request.user.userType == 'Doctor' or request.user.userType == 'Nurse' %}
+            {% include 'containers/layouts/sidenavbar/item_sidenavbar_doctor.html' %}
         {% endif %}
 
         <!-- Divider -->

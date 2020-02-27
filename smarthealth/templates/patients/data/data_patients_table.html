@@ -13,7 +13,7 @@
             <th>Birthdate</th>
             <th>Medical Problems</th>
             <th>Medications</th>
-            <th>Last Update</th>
+            <th>Date Joined</th>
             <th>Actions</th>
           </tr>
         </thead>
@@ -27,22 +27,22 @@
             <th>Birthdate</th>
             <th>Medical Problems</th>
             <th>Medications</th>
-            <th>Last Update</th>
+            <th>Date Joined</th>
             <th>Actions</th>
           </tr>
         </tfoot>
         <tbody>
-          {% for p in patient %}
+          {% for p in object_list.qs %}
           <tr>
             <td>MDHAU{{p.id}}SH102</td>
             <td>{{p.gender}}</td>
             <td>{{p.email}}</td>
-            <td>{{p.homeNumber}}</td>
+            <td>{{p.mobile_number}}</td>
             <td>{{p.maritalStatus}}</td>
             <td>{{p.birthDate}}</td>
             <td>{{p.medicalProblems}}</td>
             <td>{{p.medications}}</td>
-            <td>{{p.date_created}}</td>
+            <td>{{p.date_joined}}</td>
             <td>
               <div class="btn-group">
                 <button type="button" class="btn btn-info btn-sm">

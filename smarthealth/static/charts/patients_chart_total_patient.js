@@ -26,7 +26,7 @@ var SalesChart = (function () {
             data: {
                 labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
                 datasets: [{
-                    label: 'Patients',
+                    label: 'Clients',
                     data: [0, 20, 10, 30, 15, 40, 20, 60]
                 }]
             }

@@ -35,7 +35,12 @@
       <!-- Collapse -->
       <div class="collapse navbar-collapse" id="sidenav-collapse-main">
         <!-- Nav items -->
-        {% include 'containers/layouts/sidenavbar/item_sidenavbar.html' %}
+        {% if request.user.is_superuser %}
+            {% include 'containers/layouts/sidenavbar/item_sidenavbar_admin.html' %}
+        {% elif request.user.userType == 'Client' %}
+            {% include 'containers/layouts/sidenavbar/item_sidenavbar_client.html' %}
+        {% endif %}
+
         <!-- Divider -->
         
         <!-- Heading -->

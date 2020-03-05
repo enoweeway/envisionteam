@@ -27,6 +27,7 @@
     </script>
   </head>
   <body>
+
     <!-- Begin Wrapper -->
     <div id="wrapper">
       <div class="wrapper-top"></div>
@@ -47,7 +48,9 @@
               <div class="social">
                 <a class="north" href="javascript:window.print()" title="Print"
                   ><img src="images/icn-print.jpg" alt=""
-                /></a>
+                />Print</a>
+                <button type="button"><a href="{% url 'users:edit_profile' request.user.username%}">Edit Profile</a></button>
+                  <button type="button"><a href="{% url 'logout' %}">Logout</a></button>
               </div>
               <!-- End Social -->
             </div>

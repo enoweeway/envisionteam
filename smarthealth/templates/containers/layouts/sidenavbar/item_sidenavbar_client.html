@@ -16,10 +16,10 @@
     <div class="collapse" id="navbar-dashboards">
       <ul class="nav nav-sm flex-column">
         <li class="nav-item">
-          <a href="#" class="nav-link">Patients</a>
+          <a href="{% url 'dashboard' %}" class="nav-link">Patients</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Analytics</a>
+          <a href="{% url 'analyticDashboard' %}" class="nav-link">Analytics</a>
         </li>
       </ul>
     </div>
@@ -38,19 +38,26 @@
       aria-controls="navbar-doctors"
     >
       <i class="fas fa-user-md text-info"></i>
-      <span class="nav-link-text">Doctors</span>
+      <span class="nav-link-text">Doctors/Nurses</span>
     </a>
     <div class="collapse" id="navbar-doctors">
       <ul class="nav nav-sm flex-column">
         <li class="nav-item">
-          <a href="{% url 'users:addUser'%}" class="nav-link">Add New Doctor</a>
+          <a href="{% url 'users:addUser'%}" class="nav-link">Add New Doctor/Nurse</a>
         </li>
         <li class="nav-item">
-          <a href="{% url 'users:doctorList' %}" class="nav-link">View All Doctor</a>
+          <a href="{% url 'users:doctorList' %}" class="nav-link">View All Doctors</a>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'users:nurseList' %}" class="nav-link">View All Nurses</a>
         </li>
 
       </ul>
+
+
     </div>
+
+
       <li class="nav-item">
     <a
       class="nav-link"

@@ -5,6 +5,7 @@
       <table class="table table-flush" id="datatable-buttons">
         <thead class="thead-light">
           <tr>
+              <th>Username</th>
             <th>Name</th>
             <th>Gender</th>
             <th>Specialization</th>
@@ -16,6 +17,7 @@
         </thead>
         <tfoot>
           <tr>
+              <th>Username</th>
             <th>Name</th>
             <th>Gender</th>
             <th>Specialization</th>
@@ -28,6 +30,7 @@
         <tbody>
           {% for doc in object_list.qs %}
           <tr>
+            <td>{{doc.username}}</td>
             <td>
               {{ doc.lastName }} {{ doc.firstName }}, {{ doc.middleName }}
             </td>

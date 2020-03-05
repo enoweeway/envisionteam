@@ -40,70 +40,18 @@
       <div class="container-fluid mt--6">
         <div class="row">
           <!-- Patient Overview Chart -->
-          {% include 'dashboards/charts/client_chart_total_client.html' %}
+{#          {% include 'dashboards/charts/client_chart_total_client.html' %}#}
           <!-- Disease Overview Chart -->
 {#          {% include 'dashboards/charts/patient_chart_total_diseases.html' %}#}
         </div>
 
         <!-- Footer -->
-        {% include 'containers/layouts/footer/main_footer.html' %}
+{#        {% include 'containers/layouts/footer/main_footer.html' %}#}
       </div>
     </div>
 
     {% include 'containers/components/js.html' %}
   </body>
 
-<script>
-    var SalesChart = (function () {
-
-    // Variables
-
-    var $chart = $('#total_patients');
-
-
-    // Methods
-
-    function init($this) {
-
-        var salesChart = new Chart($this, {
-            type: 'line',
-            options: {
-                scales: {
-                    yAxes: [{
-                        gridLines: {
-                            color: Charts.colors.gray[700],
-                            zeroLineColor: Charts.colors.gray[700]
-                        },
-                        ticks: {
-
-                        }
-                    }]
-                }
-            },
-            data: {
-
-                labels: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', 'Jan'],
-                datasets: [{
-                    label: 'Clients',
-                    data: {{ arrayTotal }}
-                }]
-            }
-        });
-
-        // Save to jQuery object
-
-        $this.data('chart', salesChart);
-
-    };
-
-
-    // Events
-
-    if ($chart.length) {
-        init($chart);
-    }
-
-})();
-</script>
 
 </html>

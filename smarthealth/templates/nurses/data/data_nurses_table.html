@@ -9,7 +9,6 @@
             <th>Gender</th>
             <th>Email</th>
             <th>Contact Number</th>
-            <th>Medical School</th>
             <th>Address</th>
             <th>Ward Assigned</th>
             <th>Actions</th>
@@ -21,22 +20,20 @@
             <th>Gender</th>
             <th>Email</th>
             <th>Contact Number</th>
-            <th>Medical School</th>
             <th>Address</th>
             <th>Ward Assigned</th>
             <th>Actions</th>
           </tr>
         </tfoot>
         <tbody>
-          {% for n in nurse %}
+          {% for n in object_list.qs %}
           <tr>
             <td>
               {{n.lastName}}, {{n.firstName}} {{n.middleName}}
             </td>
             <td>{{n.gender}}</td>
             <td>{{n.email}}</td>
-            <td>{{n.contactNumber}}</td>
-            <td>{{n.medicalSchool}}</td>
+            <td>{{n.mobile_number}}</td>
             <td>{{n.homeAddress}}</td>
             <td>{{n.ward}}</td>
             <td>

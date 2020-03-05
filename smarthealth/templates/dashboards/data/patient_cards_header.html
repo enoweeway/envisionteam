@@ -1,16 +1,30 @@
 {% load static %}
 
 <div class="row">
-  <div class="col-xl-3 col-md-6">
+    {% if request.user.userType == 'Client' %}
+        <div class="col-xl-3 col-md-6">
+    {% elif request.user.userType == 'Doctor' %}
+        <div class="col-xl-6 col-md-6">
+    {% endif %}
+
     <div class="card card-stats">
       <!-- Card body -->
       <div class="card-body">
         <div class="row">
           <div class="col">
-            <h5 class="card-title text-uppercase text-muted mb-0">
-              Patients
-            </h5>
-            <span class="h2 font-weight-bold mb-0">{{total_patients}}</span>
+
+              {% if request.user.userType == 'Client' %}
+                  <h5 class="card-title text-uppercase text-muted mb-0">
+                    Total Patients
+                  </h5>
+                <span class="h2 font-weight-bold mb-0">{{totalPatients}}</span>
+              {% elif request.user.userType == 'Doctor' %}
+                  <h5 class="card-title text-uppercase text-muted mb-0">
+                    Your Patients
+                  </h5>
+                  <span class="h2 font-weight-bold mb-0">{{totalPatientsForDoctor}}</span>
+              {% endif %}
+
           </div>
           <div class="col-auto">
             <div
@@ -27,7 +41,11 @@
       </div>
     </div>
   </div>
-  <div class="col-xl-3 col-md-6">
+  {% if request.user.userType == 'Client' %}
+        <div class="col-xl-3 col-md-6">
+    {% elif request.user.userType == 'Doctor' %}
+        <div class="col-xl-6 col-md-6">
+    {% endif %}
     <div class="card card-stats">
       <!-- Card body -->
       <div class="card-body">
@@ -36,7 +54,16 @@
             <h5 class="card-title text-uppercase text-muted mb-0">
               New Patients
             </h5>
-            <span class="h2 font-weight-bold mb-0">2,356</span>
+            <span class="h2 font-weight-bold mb-0">
+            {% if request.user.userType == 'Client' %}
+                {% for totalToday in totalPatientsTodaysMonth %}
+                    {{ totalToday.total }}
+                {% endfor %}
+            {% elif request.user.userType == 'Doctor' %}
+                {{ m }}
+            {% endif %}
+
+            </span>
           </div>
           <div class="col-auto">
             <div
@@ -53,7 +80,8 @@
       </div>
     </div>
   </div>
-  <div class="col-xl-3 col-md-6">
+{% if request.user.userType == 'Client' %}
+      <div class="col-xl-3 col-md-6">
     <div class="card card-stats">
       <!-- Card body -->
       <div class="card-body">
@@ -62,7 +90,7 @@
             <h5 class="card-title text-uppercase text-muted mb-0">
               Nurses
             </h5>
-            <span class="h2 font-weight-bold mb-0">924</span>
+            <span class="h2 font-weight-bold mb-0">{{ totalNurses }}</span>
           </div>
           <div class="col-auto">
             <div
@@ -88,7 +116,7 @@
             <h5 class="card-title text-uppercase text-muted mb-0">
               Doctors
             </h5>
-            <span class="h2 font-weight-bold mb-0">2</span>
+            <span class="h2 font-weight-bold mb-0">{{totalDoctors}}</span>
           </div>
           <div class="col-auto">
             <div
@@ -105,4 +133,5 @@
       </div>
     </div>
   </div>
+{% endif %}
 </div>

@@ -1,7 +1,7 @@
 from django.db import models
 
-class Item(models.Model):
 
+class Item(models.Model):
     CATEGORIES = {
         ('General Medical Equipment and Supplies', 'General Medical Equipment and Supplies'),
         ('Anaesthesiology', 'Anaesthesiology'),
@@ -28,10 +28,9 @@ class Item(models.Model):
 
     def __str__(self):
         return self.name
-    
-    
+
+
 class Drug(models.Model):
-    
     CATEGORY = (
         ('Adamantane Antivirals', 'Adamantane Antivirals'),
         ('Adrenal Cortical Steroids', 'Adrenal Cortical Steroids'),
@@ -72,7 +71,7 @@ class Drug(models.Model):
     name = models.CharField(max_length=100, null=True, unique=True)
     quantity = models.IntegerField()
     category = models.CharField(max_length=100, null=True, choices=CATEGORY)
-    date_created = models.DateField(auto_now_add=True)
+    date_updated = models.DateField(auto_now_add=True)
     genericName = models.CharField(max_length=100, blank=True)
 
     def __str__(self):

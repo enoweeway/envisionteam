@@ -141,7 +141,7 @@ class CustomUser(AbstractUser):
     )
     ward = models.CharField(max_length=10, choices=WARD_CHOICES, blank=True)
     maritalStatus = models.CharField(max_length=20, null=True, choices=STATUS, blank=True)
-    userType = models.CharField(max_length=100, choices=USER_TYPE, blank=False, default='New')
+    userType = models.CharField(max_length=100, choices=USER_TYPE, blank=False)
     gender = models.CharField(max_length=20, choices=GENDER_CHOICES, blank=False)
 
 

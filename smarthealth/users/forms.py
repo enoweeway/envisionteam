@@ -5,7 +5,6 @@ from django.core.validators import RegexValidator
 
 from .models import CustomUser
 from django.contrib.auth.models import AbstractUser
-from users.backend import EmailOrUsernameModelBackend
 
 
 class UniqueEmailForm:

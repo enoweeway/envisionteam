@@ -1,5 +1,4 @@
-{% load static %}
-
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -12,103 +11,76 @@
       content="Start your development with a Dashboard for Bootstrap 4."
     />
     <meta name="author" content="Creative Tim" />
-    <title>Smart Health 102</title>
+    <title>Smart Health 102 | Patients</title>
 
     {% include 'containers/components/css.html' %}
   </head>
 
-  <body class="bg-default">
-    <!-- Main content -->
-    <div class="main-content">
-
-
+  <body>
+    <!-- Sidenav -->
     {% include 'containers/layouts/sidenavbar/main_sidenavbar.html' %}
-
-    {% include 'containers/layouts/navbar/topnav.html' %}
-      <!-- Header -->
-      <div class="header bg-gradient-primary py-7 py-lg-8">
+    <!-- Main content -->
+    <div class="main-content" id="panel">
+      <!-- Topnav -->
+      <nav
+        class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom"
+      >
         <div class="container-fluid">
-          <div class="header-body">
-            <div class="row justify-content-center">
-              <div class="col-xl-5 col-lg-6 col-md-8 px-5"></div>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            {% include 'containers/layouts/searchbar/searchbar.html' %}
+            <!-- Navbar links -->
+            <ul class="navbar-nav align-items-center ml-md-auto">
+              <li class="nav-item d-xl-none">
+                <!-- Sidenav toggler -->
+                <div
+                  class="pr-3 sidenav-toggler sidenav-toggler-dark"
+                  data-action="sidenav-pin"
+                  data-target="#sidenav-main"
+                >
+                  <div class="sidenav-toggler-inner">
+                    <i class="sidenav-toggler-line"></i>
+                    <i class="sidenav-toggler-line"></i>
+                    <i class="sidenav-toggler-line"></i>
+                  </div>
+                </div>
+              </li>
+              <!-- Others -->
+              {% include 'containers/layouts/navbar/main_navbar.html' %}
+            </ul>
+            {% include 'containers/layouts/navbar/whosin.html' %}
           </div>
         </div>
-
-        <div class="separator separator-bottom separator-skew zindex-100">
-          <svg
-            x="0"
-            y="0"
-            viewBox="0 0 2560 100"
-            preserveAspectRatio="none"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <polygon
-              class="fill-default"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
+      </nav>
+      <!-- Header -->
+      <!-- Header -->
+      <div class="header bg-primary pb-6">
+        <div class="container-fluid">
+          <div class="header-body">
+            <!-- Main Header -->
+          </div>
         </div>
       </div>
       <!-- Page content -->
-      <div class="container mt--8 pb-5">
-        <div class="row justify-content-center">
-          <div class="col-lg-5 col-md-7">
-            <div class="card bg-secondary border-0 mb-0">
-              <div class="card-body px-lg-5 py-lg-5">
-                <div class="text-center text-muted mb-4">
-                  <span class="btn-inner--icon"
-                    ><img
-                      src="{% static 'img/brand/sh102-logo.png' %}"
-                      style="width: 150px;"
-                  /></span>
-                </div>
-                <form method="post" role="form">
-                    {% csrf_token %}
+      <div class="container-fluid mt--6">
+        <div class="row">
 
 
-                  {% if request.user.is_superuser %}
-                        {% include 'authentication/views/snippets/add_user_pang_admin.html' %}
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-primary my-4">
-                                Add User
-                            </button>
-                        </div>
-                        <div class="text-center">
-                            <a href="{% url 'clientDashboard' %}">Home</a>
-                        </div>
-                  {% elif request.user.userType == "Client" %}
-                        {% include 'authentication/views/snippets/add_user_pang_client.html' %}
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-primary my-4">
-                                Add User
-                            </button>
-                        </div>
-                        <div class="text-center">
-                            <a href="{% url 'analyticDashboard' %}">Home</a>
-                        </div>
-                  {% elif request.user.userType == "Doctor" or request.user.userType == "Nurse" %}
-                        {% include 'authentication/views/snippets/add_user_pang_doctor_at_nurse.html' %}
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-primary my-4">
-                                Add User
-                            </button>
-                        </div>
-                        <div class="text-center">
-                            <a href="{% url 'dashboard' %}">Home</a>
-                        </div>
-                  {% endif %}
+            {% if request.user.is_superuser %}
+                {% include 'authentication/views/snippets/add_user_pang_admin.html' %}
+            {% elif request.user.userType == "Client" %}
+                {% include 'authentication/views/snippets/add_user_pang_client.html' %}
+            {% elif request.user.userType == "Doctor" or request.user.userType == "Nurse" %}
+                {% include 'authentication/views/snippets/add_user_pang_doctor_at_nurse.html' %}
+
+            {% endif %}
 
 
-                </form>
-              </div>
-            </div>
-          </div>
+
         </div>
+
+        <!-- Footer -->
       </div>
     </div>
-    <!-- Footer -->
 
     {% include 'containers/components/js.html' %}
   </body>
